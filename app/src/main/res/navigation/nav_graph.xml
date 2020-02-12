@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/main_Fragment">
+
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.knocktalk.lolspelltimer.Main_Fragment"
+        android:label="fragment_main_"
+        tools:layout="@layout/fragment_main_" >
+        <action
+            android:id="@+id/action_main_Fragment_to_setting_Fragment"
+            app:destination="@id/setting_Fragment" />
+        <action
+            android:id="@+id/action_main_Fragment_to_usage_Fragment"
+            app:destination="@id/usage_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setting_Fragment"
+        android:name="com.knocktalk.lolspelltimer.Setting_Fragment"
+        android:label="fragment_setting_"
+        tools:layout="@layout/fragment_setting_" />
+    <fragment
+        android:id="@+id/usage_Fragment"
+        android:name="com.knocktalk.lolspelltimer.Usage_Fragment"
+        android:label="fragment_usage_"
+        tools:layout="@layout/fragment_usage_" />
+</navigation>

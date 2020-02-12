@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/flash_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="108dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/boost_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/exhaust_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/haste_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="108dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/smite_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="200dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/barrier_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/heal_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="108dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/mana_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="108dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/dot_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/teleport_image"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="200dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

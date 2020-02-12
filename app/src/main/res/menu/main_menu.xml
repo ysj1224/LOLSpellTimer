@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/usage_action"
+        android:title="Usage"
+        app:showAsAction="never"></item>
+    <item
+        android:title="setting"
+        app:showAsAction="never"
+        android:id="@+id/setting_action">
+    </item>
+    <item android:title="App OFF" />
+
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LOLSpellTimer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="find_my_game">Find My Game</string>
+    <string name="vibration">Vibration</string>
+</resources>

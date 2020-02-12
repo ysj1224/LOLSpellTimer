@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190575951328",
+    "firebase_url": "https://lolp-e31bb.firebaseio.com",
+    "project_id": "lolp-e31bb",
+    "storage_bucket": "lolp-e31bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190575951328:android:19c65fa99885db8538ff85",
+        "android_client_info": {
+          "package_name": "com.knocktalk.lolspelltimer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190575951328-c30f9ohp6gbjotnhmiu9cu39d7dnt43s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YfJj7VjBjC0qoXBGxu7m-cfmfNKFaBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190575951328-c30f9ohp6gbjotnhmiu9cu39d7dnt43s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
