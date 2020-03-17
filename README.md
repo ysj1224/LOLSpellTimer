@@ -1,5 +1,5 @@
 # LOLSpellTimer
-코틀린 네비게이션 참조 		https://codechacha.com/ko/android-navigation-drawer/ /
+코틀린 네비게이션 참조 		https://codechacha.com/ko/android-navigation-drawer/ <br>
 kotlin bundle putString		https://proandroiddev.com/code-clean-up-with-kotlin-19ee1c8c0719
 				https://developer.android.com/guide/navigation/navigation-pass-data
 expandable cardview		https://affineur.tistory.com/38
